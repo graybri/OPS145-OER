@@ -1,0 +1,66 @@
+## Tutorial Reference Material
+
+**Course Slides:**
+
+- Week 12 Lecture 1 Notes: [Web](https://docs.google.com/presentation/d/e/2PACX-1vQ4ypYtNouQhbWpxslS8BOPnDbs9R6SsrbLoaE5heyp7JAPx_ZtCYmR0SMznvclZoeXa0NvhKe3mVd_/pub?start=false&loop=false&delayms=3000)
+
+**Installing Linux:**
+
+| [Linux Installation Choices](https://www.linux.com/training-tutorials/linux-installation-choices/) | [Live Linux Definition](https://en.wikipedia.org/wiki/Live_CD) | [Virtualization Definition](https://en.wikipedia.org/wiki/Virtualization) | [ISO Definition](https://en.wikipedia.org/wiki/Optical_disc_image) | [VPN Definition](https://en.wikipedia.org/wiki/Virtual_private_network) |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------------------- |
+
+**Commands:**
+
+- [sudo](https://man7.org/linux/man-pages/man8/sudo.8.html)
+- [ping](https://man7.org/linux/man-pages/man8/ping.8.html)
+- [apt](https://ss64.com/bash/apt.html)
+
+**Ubuntu Resources:**
+
+- [Ubuntu Website](https://ubuntu.com/)
+- [Ubuntu 24.04 Documentation](https://help.ubuntu.com/lts/ubuntu-help/index.html)
+
+## KEY CONCEPTS
+
+### Installing Linux
+
+Having a Linux system on your home computer provides **access** to a large selection of **open source software**.
+
+Installing your own version of Linux on your notebook or desktop computer also can make it easier to practice working in the Linux environment and **learn** how to perform routine **Linux OS administration tasks**.
+
+_A **Linux distribution** (often abbreviated as distro) is an operating system made from a software collection that is based upon the Linux kernel and, often, a package management system. Linux users usually obtain their operating system by downloading one of the Linux distributions, which are available for a wide variety of systems..._
+
+Reference: https://en.wikipedia.org/wiki/Linux_distribution
+
+![Common Linux Distributions](/img/Distro-1.png)
+
+_Steps in the Linux Installation Process:_
+
+- **Select** a _Linux Distribution_ to **download** (ISO image file or VM file).
+- **Create** VM and **install** Linux Distribution or **run** VM file.
+
+### Virtualization
+
+_Virtualization is the process of running a virtual instance of a computer system in a layer abstracted from the actual hardware_. Reference: https://opensource.com/resources/virtualization
+
+The virtualized OS is installed and run in a window under another OS. Special software is used to manage the entire process, referred to as the **hypervisor**. There are many reasons to use a virtual machine, such as testing & modifying a system's configuration without effecting a production system.
+
+**Advantages** of Virtualization:
+
+1. You can run VM from an **ISO image file** or a **VM file**.
+2. One or more virtual machines can be run at the same time.
+3. The **guest** OS **shares hardware** with the **host** OS and possibly other virtualized systems.
+4. The **guest** systems have **network access** through the host.
+
+**Installation Tips:**
+
+1. Virtualization requires a **compatible processor**: not all processors support that feature.
+2. Your **BIOS** should be set to **enable Virtualization**.
+3. Popular VM software for **Windows**, **Apple** and **Linux** OS include:
+
+   - VMware (Paid - though free to you through Seneca)
+   - Oracle Virtual Box (Free and Open Source)
+
+You will be using Oracle Virtual Box.
+
+
