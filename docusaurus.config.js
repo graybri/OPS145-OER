@@ -13,8 +13,8 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'OPS145',
-  projectName: 'OPS145',
+  organizationName: 'OPS145-OER',
+  projectName: 'OPS145-OER',
   themeConfig: {
     navbar: {
       title: 'OPS145 - Introduction to UNIX/Linux and the Internet',
@@ -57,7 +57,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          editUrl: 'https://github.com/jmcarman/ops145/tree/main',
+          editUrl: 'https://github.com/graybri/ops145-oer/tree/main',
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
