@@ -8,7 +8,7 @@ module.exports = {
   title: 'OPS145 - Introduction to UNIX/Linux and the Internet',
   tagline: 'OPS145',
   url: 'https://ops145.jmcarman.tech',
-  baseUrl: '/OPS145/',
+  baseUrl: '/OPS145-OER/',
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -43,7 +43,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `License: [LGPLv3](https://www.gnu.org/licenses/lgpl.html) Authors: Jason Carman & Murray Saul.`,
+      copyright: `License: [LGPLv3](https://www.gnu.org/licenses/lgpl.html) Authors: Jason Carman & Murray Saul & Brian Gray.`,
     },
     prism: {
       theme: lightCodeTheme,
